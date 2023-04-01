@@ -1053,13 +1053,13 @@ header .logo a img{
     padding-right:0
 }
 .navbar-default .navbar-nav>li>a{
-    font-size:1em;
-    /* text-transform:uppercase; */
-    font-weight:400;
-    text-decoration:none;
-    padding:0 1.15em;
-    text-align:center;
-    line-height:7em
+    font-size: 16px;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0 1.15em;
+    text-align: center;
+    line-height: 7em;
 }
 .navbar-default .navbar-nav>li.sub>a{
     padding:0 1.65em
@@ -1767,7 +1767,7 @@ footer.footer2 .social a:hover{
     z-index:999
 }
 #slides h1{
-    color:#eeae1e;
+    color:#eee;
     text-transform:uppercase
 }
 #slides h1 small{
@@ -1824,7 +1824,9 @@ ul.bxslider{
     list-style-type:none;
     padding:1.35em 1.15em .5em 6em;
     border-bottom:1px solid rgba(0,0,0,.1);
-    height:96px
+    height:393px;
+    margin-left: -55px;
+    margin-top: 38px;
 }
 .project-data li i{
     position:absolute;
@@ -2932,7 +2934,7 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
         font-size:13px
     }
     h1{
-        font-size:3em
+        font-size: 27px;
     }
     h1.big{
         font-size:3.85em
@@ -2944,7 +2946,7 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
         font-size:1.5em
     }
     h4{
-        font-size:1.35em
+        font-size:3.35em
     }
     h5{
         font-size:1.3em
@@ -2970,7 +2972,7 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
         top:7.35em
     }
     .navbar-default .navbar-nav>li>a{
-        line-height:8em
+        line-height:6em;
     }
     .cbp-af-header.cbp-af-header-shrink nav a{
         line-height:5em
@@ -3029,6 +3031,12 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
     }
     #owl-recent-project .item{
         height:528px
+    }
+    .queen{
+        width: 578px;
+        margin-top: 320px;
+    font-weight: normal;
+    margin-left: 57px;
     }
 }
 @media only screen and (min-width:990px) and (max-width:1200px) and (orientation:landscape){
@@ -3178,7 +3186,7 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
         font-weight:700
     }
 }
-@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
+@media screen and (min-width:768px) and (max-width:1500px) and (orientation:portrait){
     header .container>div{
         width:100%
     }
@@ -4352,9 +4360,11 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
 @media (min-width:410px) and (max-width:767px){
     
     .queen{
-        font-size: 30px;
-    margin-right: 225px;
-    margin-bottom: 251px;
+        font-size: 15px;
+        margin-right: 262px;
+        margin-bottom: 251px;
+        width: 201px;
+        margin-left: -8px;
     }
     
     
@@ -4363,7 +4373,7 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
     position: absolute;
     bottom: 37px;
     right: 7px;
-    background-color: #ffffff;
+    background-color: #eee;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -4454,7 +4464,8 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
 
 .queen{
     margin-top: 320px;
-    font-weight: bolder;
+    font-weight: normal;
+    
 }
 
 .s-img{

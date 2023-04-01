@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6{
     color:#56524c
 }
 .navbar-default .navbar-nav li a,.navbar-default .navbar-nav li:hover ul li a{
-    color: #333;
+    color: #bf994e;
 }
 #testimonials h4 span,h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.xdsoft_datetimepicker .xdsoft_month span,.xdsoft_datetimepicker .xdsoft_year span,i.square.BGlight,i.squareSmall.BGlight,i.square.outline,i.squareSmall.outline,a.outline,a.outline:hover,.btn.btn-default,.btn.btn-default:hover,.navbar-default .navbar-nav li>.sub-nav li>.sub-nav li>.sub-nav li>a:before,.btn-light,.project-gallery.recent .item h6,.links li a,.post-meta li a,aside.widget ul li a,.post-header h3 a,.widget.tags a,.post-navigation a,.pagination>li>a,.sitemap a,.nav-tabs>li a,.stat.noBG h1,.stat.noBG h4,.services .info-block-bordered h5 a
 {
@@ -63,7 +63,7 @@ i.square.outline,i.squareSmall.outline,.btn-default,.frame>div .oops,.styled .ro
     border-color:#56524c
 }
 .BGlight,.panel-default>.panel-heading,ul.list-main li:before,.form-control,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div,.jumbotron,.nav-tabs>li,.bx-wrapper .bx-pager.bx-default-pager a,.widget.tags a,.btn-light,.recent .item h6,.table.table-striped>thead:first-child>tr:first-child>th,.boxed section.BGlight,.blog-content{
-    background-color: #161616;
+    background-color: #363636;
 }
 .BGlight.opaque,.boxed .BGlight.opaque,.client,.post-footer .more,.post-footer,.single-post .post-header,#respond,.panel-group .panel,ul.sitemap.list-main.bordered li.sub ul li:hover,.project-data li:hover,.table>caption+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>th,.table>thead:first-child>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>td,.table-striped>tbody>tr:nth-of-type(2n+1){
     background-color:rgba(244,242,238,.35)

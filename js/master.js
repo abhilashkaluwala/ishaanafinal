@@ -412,21 +412,80 @@ function initialize() {
     });
 }
 
-function changeHTML1() {
-  document.getElementById("changeMe").innerHTML = "Explore Bedroom Designs";
+function changeText(newText) {
+    var heading = document.getElementById("changeMe");
+    heading.innerHTML = newText;
+    heading.style.opacity = 0;
+    setTimeout(function() {
+        heading.innerHTML = newText;
+        heading.style.opacity = 1;
+    }, 1000);
+  }
+
+function addfade() {
+    var box = document.getElementById("fadebox");
+    box.style.opacity = 0;
+    setTimeout(function() {
+        box.style.opacity = 1;
+    }, 1000);
 }
-function changeHTML2() {
-    document.getElementById("changeMe").innerHTML = "Explore Bathroom Designs";
-}
-function changeHTML3() {
-    document.getElementById("changeMe").innerHTML = "Explore Modular Kitchens";
-}
-function changeHTML4() {
-    document.getElementById("changeMe").innerHTML = "Explore Living Rooms Designs";
-}
-function changeHTML5() {
-    document.getElementById("changeMe").innerHTML = "Explore Home Office Collection";
-}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function changeHTML1() {
+//   const head1 =  document.getElementById("changeMe");
+//   head1.innerHTML = "Explore Bedroom Designs";
+//   setTimeout(() => {
+//     head1.style.opacity = '1';
+//   }, 0);
+// }
+// function changeHTML2() {
+//     const head2 = document.getElementById("changeMe");
+//     head2.innerHTML = "Explore Bathroom Designs";
+//     setTimeout(() => {
+//         head2.style.opacity = '1';
+//       }, 0);
+// }
+// function changeHTML3() {
+//     const head3 = document.getElementById("changeMe");
+//     head3.innerHTML = "Explore Modular Kitchens";
+//     setTimeout(() => {
+//         head3.style.opacity = '1';
+//       }, 0);
+// }
+// function changeHTML4() {
+//     const head4 = document.getElementById("changeMe");
+//     head4.innerHTML = "Explore Living Rooms Designs";
+//     setTimeout(() => {
+//         head4.style.opacity = '1';
+//       }, 0);
+// }
+// function changeHTML5() {
+//     const head5 = document.getElementById("changeMe");
+//     head5.innerHTML = "Explore Home Office Collection";
+//     setTimeout(() => {
+//         head5.style.opacity = '1';
+//       }, 0);
+// }
 
 function changeImage1() {
     document.getElementById("myImage1").src = "images/project/recent-home/bed1.jpg";
@@ -532,6 +591,17 @@ navLinks.forEach((navLinks) => {
     hamMenuIcon.classList.toggle("fa-times");
   });
 });
+
+const fadeLink = document.querySelector('#fade-link');
+const fadeHeader = document.querySelector('#fade-div');
+
+fadeLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  fadeHeader.style.opacity = 1;
+});
+
+
+
 
 
     

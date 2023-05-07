@@ -547,7 +547,7 @@ a.outline:hover,.btn.btn-default:hover{
 }
 .section-heading{
     display:block;
-    margin-bottom:2.55em
+    margin-bottom:4.55em
 }
 .section-heading h2{
     float:left;
@@ -1767,7 +1767,7 @@ footer.footer2 .social a:hover{
     z-index:999
 }
 #slides h1{
-    color:#eee;
+    color:#ffffff;
     text-transform:uppercase
 }
 #slides h1 small{
@@ -1799,7 +1799,7 @@ ul.bxslider{
     opacity:1
 }
 .bx-wrapper:hover .bx-next{
-    right:383px;
+    /* right:383px; */
 }
 .bx-wrapper:hover .bx-prev{
     left:0
@@ -4059,8 +4059,11 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
 }
 @media only screen and (min-width:320px) and (max-width:600px) and (orientation:portrait){
     
-   
     
+    #slides h1 {
+        color: #555555b3;
+        text-transform: uppercase;
+    }
     
     h1{
         font-size:2.55em
@@ -4304,6 +4307,8 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
         width:100%;
         margin:1em 0
     }
+    #img1{display: none;}
+    #img2{display: block;}
 }
 
 .ct1{
@@ -4366,14 +4371,15 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
     
     .queen{
         font-size: 15px;
-    /* margin-right: 262px; */
-    /* margin-bottom: 251px; */
-    padding-bottom: 97px;
-    width: 274px;
-    display: flex;
-    margin: auto;
-    /* margin-left: -8px; */
-    justify-content: space-around;
+        /* margin-right: 262px; */
+        /* margin-bottom: 251px; */
+        padding-bottom: 419px;
+        width: 274px;
+        display: flex;
+        font-size: 23px;
+        margin: auto;
+        /* margin-left: -8px; */
+        justify-content: space-around;
     }
     
     
@@ -4492,7 +4498,8 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
     }
 
 
-
+    #img1{display: none;}
+    #img2{display: block;}
 
 
 }
@@ -4530,8 +4537,29 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
 }
 
     
+#img1{display: block;}
+#img2{display: none;}
 
+@media (min-width:320px) and (max-width:450px){
+    #img1{display: none;}
+    #img2{display: block;}
+    #changeMe{
+        font-size: 17px;
+    }
+}
 
+.fadehead{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
 
+  .fadebox{
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  
 
+#changeMe{
+    font-size: 17px;
+}
 

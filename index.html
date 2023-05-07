@@ -279,7 +279,8 @@ width: 100%; z-index: 1000; ">
 
 
 	<div id="slides" class="BGdark" style="margin-top: 0px; height: 625px;" style="position: relative;">
-		<img class="img-responsive" src="images/main4.jpg" />
+		<img class="img-responsive" id="img1" src="images/main4.jpg" />
+		<img class="img-responsive" id="img2" src="images/ishmob.jpeg" />
 		<div class="text-block">
 			<h4 style="
 		  padding-top: 5px;">Explore Designs</h4>
@@ -430,23 +431,23 @@ width: 100%; z-index: 1000; ">
 					align-items: center;
 					align-content: center;
 					padding-top: 30px;">
-							<li><a onclick="changeHTML1(); changeImage1();"
+							<li><a onclick="changeText('Explore Bedroom Designs'); changeImage1(); addfade();" 
 									style="color : aliceblue;margin: 0;padding: 0;">
 									<p class="zoomable-text" style="cursor: pointer;">Bedroom</p>
 								</a></li>
-							<li><a  onclick="changeHTML2(); changeImage2();"
+							<li><a  onclick="changeText('Explore Bathroom Designs'); changeImage2(); addfade();" 
 									style="color: aliceblue;margin: 0;padding: 0">
 									<p class="zoomable-text" style="cursor: pointer;">Bathroom</p>
 								</a></li>
-							<li><a  onclick="changeHTML3(); changeImage3()"
+							<li><a  onclick="changeText('Explore Modular Kitchens'); changeImage3(); addfade();" 
 									style="color: aliceblue;margin: 0;padding: 0">
 									<p class="zoomable-text" style="cursor: pointer;">Modular Kitchen</p>
 								</a></li>
-							<li><a  onclick="changeHTML4(); changeImage4()"
+							<li><a  onclick="changeText('Explore Living Room Designs'); changeImage4(); addfade();" 
 									style="color: aliceblue;margin: 0;padding: 0">
 									<p class="zoomable-text" style="cursor: pointer;">Living Room</p>
 								</a></li>
-							<li><a  onclick="changeHTML5(); changeImage5()"
+							<li><a  onclick="changeText('Explore Home Office Collection'); changeImage5(); addfade();" 
 									style="color: aliceblue;margin: 0;padding: 0">
 									<p class="zoomable-text" style="cursor: pointer;">Home Office</p>
 								</a></li>
@@ -460,12 +461,11 @@ width: 100%; z-index: 1000; ">
 
 	<section class="recent-project smallSlider page-block-large BGlight" style="background: #fff;">
 		<div class="container wow zoomIn" data-wow-duration="0.50s" data-wow-delay="0.50s">
-			<div class="col-md-12" style="padding-bottom: 40px;">
+			<div class="col-md-12" id="fadebox" style="padding-bottom: 40px;">
 				<div class="section-heading">
-					<h2 id="changeMe" style="margin-top: 25px;">Explore our Products</h2>
+					<h2 id="changeMe" class="fadehead">Explore our Products</h2>
 					<!-- <a class="btn btn-primary" href="portfolio-2col.html" title="View All Projects">View All Projects <i
 							class="fa fa-chevron-circle-right"></i></a> -->
-					<div class="clear"></div>
 				</div>
 				<ul class="bxslider">
 					<li>
